@@ -12,7 +12,7 @@ if "portfolio_items" not in st.session_state:
 if "show_form" not in st.session_state:
     st.session_state.show_form = False
 
-st.title("📈 Portfolio Builder")
+st.title("📈 Equity Portfolio Builder")
 
 # Add portfolio item button
 if st.button("➕ Add portfolio item"):
@@ -23,7 +23,7 @@ if st.session_state.show_form:
     with st.form("add_item_form", clear_on_submit=True):
         ticker = st.text_input("Ticker symbol")
         shares = st.number_input("Number of shares", min_value=0, step=1)
-        submitted = st.form_submit_button("Add")
+        submitted = st.form_submit_button("Add Portfolio Item")
         if submitted:
             if ticker and shares > 0:
                 st.session_state.portfolio_items.append({"ticker": ticker.upper(), "shares": shares})
