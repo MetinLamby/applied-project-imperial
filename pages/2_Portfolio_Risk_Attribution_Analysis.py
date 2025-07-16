@@ -24,7 +24,7 @@ if "portfolio_daily_prices" in st.session_state and "portfolio_weights" in st.se
         filtered_prices_df = prices_df[prices_df['Date'].isin(factors['Date'])].copy()
 
 
-        filtered_prices_df
+        prices_df[prices_df['Date'].isin(factors['Date'])].copy()
 
         # Extract asset columns (exclude 'Date')
         asset_cols = [col for col in filtered_prices_df.columns if col != 'Date']
