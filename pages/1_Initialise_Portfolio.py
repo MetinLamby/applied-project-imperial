@@ -5,6 +5,7 @@ from sklearn.linear_model import LassoCV
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import TimeSeriesSplit
 
+
 # Initialize session state
 if "portfolio_items" not in st.session_state:
     st.session_state.portfolio_items = []
@@ -60,6 +61,9 @@ if st.session_state.portfolio_items:
         # if the data is empty, show a warning
         if data.empty:
             st.warning("The Yahoo finance API is down at the moment. or, there is no data found for the selected tickers. Please check the ticker symbols and try again.")
+
+            st.page_link("pages/3_Help_Page.py", label="Help Page", icon="❓")
+
         else:  
             # Calculate portfolio weights based on shares
             last_prices = data.iloc[-1]
@@ -68,8 +72,8 @@ if st.session_state.portfolio_items:
             st.session_state.portfolio_daily_prices = data
             st.session_state.portfolio_weights = weights
 
-            data 
-            weights 
+            st.page_link("pages/2_Portfolio_Risk_Attribution_Analysis.py", label="Analyse risk factors of my portfolio", icon="✅")
+
 else:
     st.info("Add portfolio items to get started.")
 
