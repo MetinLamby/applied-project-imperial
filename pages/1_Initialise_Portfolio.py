@@ -72,7 +72,7 @@ if st.session_state.portfolio_items:
             st.session_state.portfolio_daily_prices = data
             st.session_state.portfolio_weights = weights
 
-            st.page_link("pages/2_Portfolio_Risk_Attribution_Analysis.py", label="Analyse risk factors of my portfolio", icon="✅")
+            st.page_link("pages/2_Portfolio_Risk_Attribution_Analysis.py", label="Analyse risk factors of my portfolio", icon="➡️")
 
 else:
     st.info("Add portfolio items to get started.")
