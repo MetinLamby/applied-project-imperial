@@ -1,4 +1,4 @@
 streamlit
 yfinance
 pandas
-scikit_learn==0.24.2
+scikit_learn
