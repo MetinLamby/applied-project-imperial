@@ -1,0 +1,151 @@
+Factor;Description
+MktRf;Excess Market Return
+beta;Market Beta
+ep;Earnings to price
+dy;Dividend to price
+sue;Unexpected quarterly earnings
+pps;Share price
+LTR;Long-Term Reversal
+lev;Leverage
+cashdebt;Cash flow to debt
+currat;Current ratio
+pchcurrat;percentage change in current ratio
+pchquick;percentage change in quick ratio
+pchsaleinv;percentage change sales-to-inventory
+quick;Quick ratio
+salecash;Sales to cash
+saleinv;Sales to inventory
+salerec;Sales to receivables
+baspread;Bid-ask spread
+depr;Depreciation/PP&E
+pchdepr;percentage change in depreciation
+SMB;Small Minus Big
+HML;High Minus Low
+STR;Short-Term Reversal
+mom6m;6-month momentum
+mom36m;36-month momentum
+sgr;Sales growth
+cp;Cash flow-to-price
+IPO;New equity issue
+divi;Dividend initiation
+divo;Dividend omission
+acc;Working capital accruals
+sp;Sales to price
+cto;Capital turnover
+UMD;Momentum
+turn;Share turnover
+pchgm_pchsale;percentage change in gross margin—percentage change in sales
+pchsale_pchinvt;percentage change in sales—percentage change in inventory
+pchsale_pchrect;percentage change in sales—percentage change in A/R
+pchsale_pchxsga;percentage change in sales—percentage change in SG&A
+etr;Effective Tax Rate
+lfe;Labor Force Efficiency
+os;Ohlson’s O-score
+zs;Altman’s Z-score
+pchcapx_ia;Industry adjusted percentage change in capital expenditures
+nincr;Number of earnings increases
+indmom;Industry momentum
+ps;Financial statements score
+bm_ia;Industry-adjusted book to market
+cfp_ia;Industry-adjusted cash flow to price ratio
+chempia;Industry-adjusted change in employees
+mve_ia;Industry-adjusted size
+dolvol;Dollar trading volume
+std_dolvol;Volatility of liquidity (dollar trading volume)
+std_turn;Volatility of liquidity (share turnover)
+adm;Advertising Expense-to-market
+rdm;R&D Expense-to-market
+rds;R&D-to-sales
+kz;Kaplan-Zingales Index
+chinv;Change in inventory
+chtx;Change in tax expense
+ill;Illiquidity
+LIQ_PS;Liquidity
+idiovol;Idiosyncratic return volatility
+grltnoa;Growth in long term net operating assets
+ob_a;Order backlog
+grltnoa_hxz;Changes in Long-term Net Operating Assets
+cfp;Cash flow to price ratio
+rd;R&D increase
+cinvest;Corporate investment
+roavol;Earnings volatility
+cinvest_a;Abnormal Corporate Investment
+noa;Net Operating Assets
+dnoa;Changes in Net Operating Assets
+tb;Tax income to book income
+pricedelay;Price delay
+age;number of  Years since first Compustat coverage
+egr;Growth in common shareholder equity
+lgr;Growth in long-term debt
+dcoa;Change in Current Operating Assets
+dcol;Change in Current Operating Liabilities
+dwc;Changes in Net Noncash Working Capital
+dnca;Change in Noncurrent Operating Assets
+dncl;Change in Noncurrent Operating Liabilities
+dnco;Change in Net Noncurrent Operating Assets
+dfin;Change in Net Financial Assets
+ta;Total accruals
+dsti;Change in Short-term Investments
+dfnl;Change in Financial Liabilities
+egr_hxz;Change in Book Equity
+ms;Financial statements performance
+chmom;Change in 6-month momentum
+grcapx;Growth in capital expenditures
+retvol;Return volatility
+zerotrade;Zero trading days
+pchcapx3;Three-year Investment Growth
+cei;Composite Equity Issuance
+nef;Net equity finance
+ndf;Net debt finance
+nxf;Net external finance
+rs;Revenue Surprises
+herf;Industry Concentration
+ww;Whited-Wu Index
+roic;Return on invested capital
+tang;Debt capacity/firm tangibility
+op;Payout yield
+nop;Net payout yield
+ndp;Net debt-to-price
+ebp;Enterprise book-to-price
+chcsho;Change in shares outstanding
+aeavol;Abnormal earnings announcement volume
+ear;Earnings announcement return
+moms12m;Seasonality
+dpia;Changes in PPE and Inventory-to-assets
+pchcapx;Investment Growth
+cdi;Composite Debt Issuance
+rna;Return on net operating assets
+pm;Profit margin
+ato;Asset turnover
+chatoia;Industry-adjusted change in asset turnover
+chpmia;Industry-adjusted change in profit margin
+cashpr;Cash productivity
+sin;Sin stocks
+rsup;Revenue surprise
+stdcf;Cash flow volatility
+absacc;Absolute accruals
+invest;Capital expenditures and inventory
+roaq;Return on assets
+stdacc;Accrual volatility
+realestate_hxz;Industry-adjusted Real Estate Ratio
+pctacc;Percent accruals
+maxret;Maximum daily return
+ol;Operating Leverage
+ivg;Inventory Growth
+poa;Percent Operating Accruals
+em;Enterprise multiple
+cash;Cash holdings
+HML_Devil;HML Devil
+gma;Gross profitability
+orgcap;Organizational Capital
+BAB;Betting Against Beta
+QMJ;Quality Minus Junk
+hire;Employee growth rate
+gad;Growth in advertising expense
+ala;Book Asset Liquidity
+RMW;Robust Minus Weak
+CMA;Conservative Minus Aggressive
+HXZ_IA;HXZ Investment
+HXZ_ROE;HXZ Profitability
+Intermediary;Intermediary Investment
+convind;Convertible debt indicator
