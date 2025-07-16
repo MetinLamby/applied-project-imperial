@@ -21,11 +21,10 @@ if "portfolio_daily_prices" in st.session_state and "portfolio_weights" in st.se
         # Ensure 'Date' column is datetime
         factors['Date'] = pd.to_datetime(factors['Date'], format='%Y%m%d')
 
-        prices_df
-        factors
-
-
         filtered_prices_df = prices_df[prices_df['Date'].isin(factors['Date'])].copy()
+
+
+        filtered_prices_df
 
         # Extract asset columns (exclude 'Date')
         asset_cols = [col for col in filtered_prices_df.columns if col != 'Date']
