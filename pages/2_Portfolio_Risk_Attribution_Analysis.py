@@ -18,17 +18,19 @@ if "portfolio_daily_prices" in st.session_state and "portfolio_weights" in st.se
     try:
         factors = pd.read_csv('factorZoo.csv')
 
-        factors
-
         # Ensure 'Date' column is datetime
         factors['Date'] = pd.to_datetime(factors['Date'], format='%Y%m%d')
 
         filtered_prices_df = prices_df[prices_df['Date'].isin(factors['Date'])].copy()
-        
+
+
+
+        filtered_prices_df
+
+
 
         # Extract asset columns (exclude 'Date')
         asset_cols = [col for col in filtered_prices_df.columns if col != 'Date']
-
 
         # Convert weights dataframe to Series, aligned to asset columns
         weights = weights.reindex(asset_cols)
