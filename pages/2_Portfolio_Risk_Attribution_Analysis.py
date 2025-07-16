@@ -11,18 +11,14 @@ from sklearn.model_selection import TimeSeriesSplit
 if "portfolio_daily_prices" in st.session_state and "portfolio_weights" in st.session_state:
     weights = st.session_state.portfolio_weights
     prices_df = st.session_state.portfolio_daily_prices
-
-
-    weights 
-    prices_df
-
-
     # reset the index of prices_df to ensure 'Date' is a column
     prices_df.reset_index(inplace=True)
     prices_df['Date'] = pd.to_datetime(prices_df['Date'])
 
     try:
         factors = pd.read_csv('factorZoo.csv')
+
+        factors
 
         # Ensure 'Date' column is datetime
         factors['Date'] = pd.to_datetime(factors['Date'], format='%Y%m%d')
