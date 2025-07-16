@@ -20,7 +20,8 @@ st.page_link("pages/1_Initialise_Portfolio.py", label="Lets get started", icon="
 st.markdown(
     """
     ### Want to learn more about the project?
-    - Check out the related GitHub repo [github.io](https://github.com/MetinLamby/applied-project-imperial)
+    - Check out the related repo on [GitHub](https://github.com/MetinLamby/applied-project-imperial)
     - Read the applied project [pdf](https://github.com/MetinLamby/applied-project-imperial/blob/main/README.md)
+    - Watch the app [tutorial](https://github.com/MetinLamby/applied-project-imperial/blob/main/README.md)
     """
 )

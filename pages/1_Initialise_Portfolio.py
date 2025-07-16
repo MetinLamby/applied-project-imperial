@@ -60,7 +60,7 @@ if st.session_state.portfolio_items:
 
         # if the data is empty, show a warning
         if data.empty:
-            st.warning("The Yahoo finance API is down at the moment. or, there is no data found for the selected tickers. Please check the ticker symbols and try again.")
+            st.warning("Rate limit of Yahoo finance API is reached. or, there is no data found for the selected tickers. Please check the ticker symbols and try again.")
 
             st.page_link("pages/3_Help_Page.py", label="Help Page", icon="❓")
 
