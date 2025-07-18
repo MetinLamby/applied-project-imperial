@@ -8,6 +8,7 @@ from sklearn.model_selection import TimeSeriesSplit
 
 
 ############### PART 4: LASSO COEFFICIENTS AND DESCRIPTION ###############
+st.write("# Lasso Coefficients and their Descriptions")
 
 
 if "lasso_coefficients" in st.session_state:
@@ -21,6 +22,12 @@ if "lasso_coefficients" in st.session_state:
         # Display the result
         st.session_state.lasso_coefficients_desciptions = merged_with_descriptions
 
+        merged_with_descriptions
+
 
     except FileNotFoundError:
         st.warning("factorZoo.csv file not found. Please upload it to the app directory.")
+
+
+if "lasso_coefficients_desciptions" in st.session_state:
+    st.page_link("pages/5_OpenAI_Integration.py", label="Interpret the results", icon="➡️")

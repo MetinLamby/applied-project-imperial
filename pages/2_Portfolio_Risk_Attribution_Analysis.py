@@ -1,12 +1,10 @@
 import streamlit as st
-import yfinance as yf
 import pandas as pd
-from sklearn.linear_model import LassoCV
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import TimeSeriesSplit
+
 
 ############### PART 2: FACTOR ZOO AND PORTFOLIO RETURNS ###############
 
+st.write("# Overview of portfolio returns and factor zoo")
 
 if "portfolio_daily_prices" in st.session_state and "portfolio_weights" in st.session_state:
     weights = st.session_state.portfolio_weights
@@ -49,6 +47,8 @@ if "portfolio_daily_prices" in st.session_state and "portfolio_weights" in st.se
         st.session_state.return_factor_df = return_factor_df
 
         return_factor_df
+
+        st.page_link("pages/3_Lasso_Regression.py", label="Perform lasso regression on factor zoo", icon="➡️")
 
     except FileNotFoundError:
         st.warning("factorZoo.csv file not found. Please upload it to the app directory.")

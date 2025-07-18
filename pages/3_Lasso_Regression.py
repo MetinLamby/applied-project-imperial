@@ -7,6 +7,8 @@ from sklearn.model_selection import TimeSeriesSplit
 
 ############### PART 3: LASSO REGRESSION ###############
 
+st.write("# Lasso Regression Results")
+
 
 if "return_factor_df" in st.session_state:
     df = st.session_state.return_factor_df
@@ -53,3 +55,9 @@ if "return_factor_df" in st.session_state:
         })
 
         st.session_state.lasso_coefficients = nonzero_coefs_df
+
+        nonzero_coefs_df
+
+
+if "lasso_coefficients" in st.session_state:
+    st.page_link("pages/4_Lasso_Coefficients_And_Descriptions.py", label="Analyse lasso coefficents and descriptions", icon="➡️")
