@@ -1,9 +1,10 @@
 import streamlit as st
-import yfinance as yf
 import pandas as pd
 from sklearn.linear_model import LassoCV
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import TimeSeriesSplit
+import time
+
 
 ############### PART 3: LASSO REGRESSION ###############
 
@@ -11,6 +12,9 @@ st.write("# Lasso Regression Results")
 
 
 if "return_factor_df" in st.session_state:
+
+    st.write("Operation in progress. Please wait....")
+
     df = st.session_state.return_factor_df
 
     # Drop rows with NaN

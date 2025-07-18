@@ -1,9 +1,6 @@
 import streamlit as st
 import yfinance as yf
 import pandas as pd
-from sklearn.linear_model import LassoCV
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import TimeSeriesSplit
 
 
 # Initialize session state
@@ -76,4 +73,3 @@ if st.session_state.portfolio_items:
 
 else:
     st.info("Add portfolio items to get started.")
-
